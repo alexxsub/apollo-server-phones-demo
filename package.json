@@ -1,0 +1,22 @@
+{
+  "name": "apollo-graphql-crud-phones-array",
+  "description": "Demo for basics of Appolo graphql ",
+  "dependencies": {
+    "apollo-server": "2.1.0",
+    "graphql": "14.0.2"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js localhost 4000"
+  },
+  "keywords": [
+    "apollo",
+    "crud",
+    "graphql"
+  ],
+  "devDependencies": {
+    "@types/graphql": "14.0.1",
+    "nodemon": "1.18.4"
+  }
+}
