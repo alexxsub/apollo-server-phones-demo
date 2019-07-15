@@ -9,6 +9,7 @@
 
 ```sh
 git clone https://github.com/alexxsub/apollo-server-phones-demo.git
+cd apollo-server-phones-demo
 npm i
 npm start
 ```
