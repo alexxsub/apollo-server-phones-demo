@@ -83,6 +83,9 @@ const server = new ApolloServer({
   resolvers
 });
 //start it
-server.listen().then(({ url }) => {
+const HOST = process.argv[2];
+const PORT = process.argv[3];
+
+server.listen({ host: HOST, port: PORT }).then(({ url }) => {
   console.log(`🚀   Взлетел ${url}`);
 });
